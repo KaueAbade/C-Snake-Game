@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1700921192 source:c:\users\kaueg\onedrive - ifsp.edu.br\segundo semestre\programação de computadores - 1\snake\main.cpp
+	<time.h>
+	<conio.h>
+	<iostream>
+	<windows.h>
+
+1700875602 source:c:\users\kaueg\onedrive - ifsp.edu.br\segundo semestre\programa��o de computadores - 1\snake\main.cpp
+	<time.h>
+	<conio.h>
+	<iostream>
+	<windows.h>
+
+1700923750 source:c:\users\kaueg\onedrive - ifsp.edu.br\segundo semestre\programação de computadores - 1\snake - copia (2)\main.cpp
+	<time.h>
+	<conio.h>
+	<iostream>
+	<windows.h>
+
+1700923750 source:c:\users\kaueg\onedrive - ifsp.edu.br\segundo semestre\programação de computadores - 1\snake - copia\main.cpp
+	<time.h>
+	<conio.h>
+	<iostream>
+	<windows.h>
+
+1701043700 source:c:\users\kaueg\desktop\snake\main.cpp
+	"menu.h"
+
+1701041809 source:c:\users\kaueg\desktop\snake\globais.cpp
+	"globais.h"
+
+1701040659 c:\users\kaueg\desktop\snake\jogo.h
+	"menu.h"
+	"input.h"
+	"output.h"
+	"globais.h"
+	<chrono>
+
+1701042240 c:\users\kaueg\desktop\snake\menu.h
+	"jogo.h"
+	"menu.h"
+	<iostream>
+
+1701039521 c:\users\kaueg\desktop\snake\input.h
+	"globais.h"
+	<conio.h>
+	<iostream>
+
+1701039478 c:\users\kaueg\desktop\snake\globais.h
+	<vector>
+
+1701042127 c:\users\kaueg\desktop\snake\output.h
+	"globais.h"
+	<iostream>
+	<windows.h>
+
+1701044931 source:c:\users\kaueg\desktop\snake\input.cpp
+	"input.h"
+
+1701045013 source:c:\users\kaueg\desktop\snake\menu.cpp
+	"menu.h"
+
+1701045084 source:c:\users\kaueg\desktop\snake\jogo.cpp
+	"jogo.h"
+
+1701043775 source:c:\users\kaueg\desktop\snake\output.cpp
+	"output.h"
+
