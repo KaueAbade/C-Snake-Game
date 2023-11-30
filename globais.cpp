@@ -29,6 +29,6 @@ int iX, iY;
 
 char cDirecao;
 
-vector<vector<char>> cTela(iAltura, vector<char>(iLargura));
-vector<vector<char>> cTelaPass(iAltura, vector<char>(iLargura));
-vector<vector<char>> cPrimeiraTela(iAlturaTotal + 1, vector<char>(iLarguraTotal + 1));
+char cTela[22][40];
+char cTelaPass[22][40];
+char cPrimeiraTela[25 + 1][43 + 1];

@@ -1,7 +1,5 @@
 #pragma once
 
-#include <vector>
-
 using namespace std;
 
 extern const int iAlturaMargem;
@@ -31,6 +29,6 @@ extern int iX, iY;
 
 extern char cDirecao;
 
-extern vector<vector<char>> cTela;
-extern vector<vector<char>> cTelaPass;
-extern vector<vector<char>> cPrimeiraTela;
+extern char cTela[22][40];
+extern char cTelaPass[22][40];
+extern char cPrimeiraTela[25 + 1][43 + 1];

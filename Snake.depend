@@ -66,3 +66,47 @@
 1701043775 source:c:\users\kaueg\desktop\snake\output.cpp
 	"output.h"
 
+1701350983 source:c:\users\kaueg\desktop\cpp-snake-game\input.cpp
+	"input.h"
+
+1701350983 c:\users\kaueg\desktop\cpp-snake-game\input.h
+	"globais.h"
+	<conio.h>
+	<iostream>
+
+1701351325 c:\users\kaueg\desktop\cpp-snake-game\globais.h
+
+1701350983 source:c:\users\kaueg\desktop\cpp-snake-game\main.cpp
+	"menu.h"
+	"output.h"
+
+1701350983 c:\users\kaueg\desktop\cpp-snake-game\menu.h
+	"jogo.h"
+	"menu.h"
+	"output.h"
+	<iostream>
+
+1701350983 c:\users\kaueg\desktop\cpp-snake-game\jogo.h
+	"menu.h"
+	"input.h"
+	"output.h"
+	"globais.h"
+	<chrono>
+
+1701350983 c:\users\kaueg\desktop\cpp-snake-game\output.h
+	"globais.h"
+	<iostream>
+	<windows.h>
+
+1701350983 source:c:\users\kaueg\desktop\cpp-snake-game\menu.cpp
+	"menu.h"
+
+1701350983 source:c:\users\kaueg\desktop\cpp-snake-game\jogo.cpp
+	"jogo.h"
+
+1701350983 source:c:\users\kaueg\desktop\cpp-snake-game\output.cpp
+	"output.h"
+
+1701351319 source:c:\users\kaueg\desktop\cpp-snake-game\globais.cpp
+	"globais.h"
+
