@@ -115,25 +115,12 @@ void iniciarJogo(void)
 	iPontuacao = 0;
 	iPontuacaoPass = iPontuacao;
 
-	//"Seta" as matrizes para ' ' em toda memoria igual
-    for (int i = 0; i < iAltura; ++i)
-    {
-        for (int j = 0; j < iLargura; ++j)
-            {
-                cTela[i][j] = ' ';
-                cTelaPass[i][j] = ' ';
-            }
-    }
+	//"Seta" as matrizes para ' ' em toda memoria igual a altura * largura
+	memset((char*)cTela, ' ', iLargura*iAltura);
+    memset((char*)cTelaPass, ' ', iLargura*iAltura);
+    memset((char*)cPrimeiraTela, ' ', (iAlturaTotal+1)*(iLarguraTotal+1));
 
-    for (int i = 0; i < iAlturaTotal; ++i)
-    {
-        for (int j = 0; j < iLarguraTotal; ++j)
-            {
-                cPrimeiraTela[i][j] = ' ';
-            }
-    }
-
-    //"Seta" os vetores para ' ' em toda memoria igual
+    //"Seta" os vetores para ' ' em toda memoria igual a largura ou altura
     memset((char*)iCobraX, ' ', iLargura);
     memset((char*)iCobraY, ' ', iAltura);
 

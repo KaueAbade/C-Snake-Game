@@ -61,11 +61,11 @@ void tutorial(void)
 {
     char cInput;
 
+    redimensionarCMD(600,600);
+
     do
     {
     system("CLS");
-
-    redimensionarCMD(600,600);
 
     cout << "\n Este e um 'jogo da cobrinha' (Snake Game)\n\n";
     cout << " E recomendado que o jogo seja 'Executado como\n administrador' para o gerenciamento correto\n do Prompt de Comando\n\n\n\n";
@@ -75,7 +75,7 @@ void tutorial(void)
     cout << " 'Esc'\t=\tTermina a sessao atual do jogo\n\n";
     cout << " 'P'\t=\tPausa a sessao atual do jogo\n\n";
 
-    cursorPara(0,(iAlturaTotal+8));
+    cursorPara(0,(iAlturaTotal+8)); //Funcao do Output
     cout << " Aperte 'Enter' para continuar";
 
     cInput = menuInput();
@@ -90,11 +90,11 @@ void menu(void)
 {
     char cInput;
 
+    redimensionarCMD(600,600);
+
     do
     {
         system("CLS");
-
-        redimensionarCMD(600,600);
 
         cout << "\n\t\t  Menu principal\n\n\n\n Selecione uma das opcoes:\n\n";
         cout << " a. Jogar\n\n b. Velocidade da cobra";

@@ -1,6 +1,8 @@
 #include "menu.h"
 #include "output.h"
 
+#include <windows.h>
+
 int main()
 {
     //Deixa o cursor do CMD invisivel
@@ -28,8 +30,8 @@ int main()
     MoveWindow(GetConsoleWindow(),320,180,600,500,TRUE);
     ShowScrollBar(GetConsoleWindow(), SB_BOTH, FALSE);
 
-    tutorial();
-    menu();
+    tutorial(); //Função de Menu
+    menu(); //Função de Menu
 
     return 0;
 }

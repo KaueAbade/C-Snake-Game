@@ -10,8 +10,7 @@ void cursorPara(int x, int y)
         return;
 
     COORD coord = { (SHORT)x, (SHORT)y };
-    if (!SetConsoleCursorPosition(hOut, coord))
-        return;
+    SetConsoleCursorPosition(hOut, coord);
 
     return;
 }
@@ -46,13 +45,7 @@ void renderizar(void)
 
 	//Gera o buffer da pontuacao e da tela, copiando o novo para o buffer
     iPontuacaoPass = iPontuacao;
-    for (int i = 0; i < iAltura; ++i)
-    {
-        for (int j = 0; j < iLargura; ++j)
-            {
-                cTelaPass[i][j] = cTela[i][j];
-            }
-    }
+    memcpy((char*)cTelaPass, (char*)cTela, iAltura*iLargura);
 
     return;
 }
