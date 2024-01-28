@@ -1,9 +1,9 @@
 # CPP Snake Game
 [![en](https://img.shields.io/badge/lang-en-red.svg)][en]
-[![GitHub release](https://img.shields.io/github/release/KaueAbade/ModbusMaster.svg?maxAge=3600)][GitHub release]
+[![GitHub release](https://img.shields.io/github/release/KaueAbade/CPP-Snake-Game.svg?maxAge=3600)][GitHub release]
 
 [en]:  https://github.com/KaueAbade/CPP-Snake-Game/blob/main/README.en.md
-[GitHub release]:   https://github.com/KaueAbade/ModbusMaster
+[GitHub release]:   https://github.com/KaueAbade/CPP-Snake-Game/releases
 
 "Jogo da Cobrinha" (Snake Game) escrito em C++. 
 Apenas com o modo de jogo tradicional e diferentes dificuldades dadas pela veloocidade da cobra.
