@@ -5,6 +5,9 @@
 [pt-br]:  https://github.com/KaueAbade/CPPSnakeGame/blob/main/README.md
 [GitHub release]:   https://github.com/KaueAbade/CPPSnakeGame/releases
 
+
+## Overview
+
 Snake Game written in C++. 
 Only with the traditional game mode and different difficulties given by the speed of the snake.
 
