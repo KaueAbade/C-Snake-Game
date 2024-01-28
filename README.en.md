@@ -1,5 +1,5 @@
 # CPP Snake Game
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)][pt-br]
+[![pt-br](https://img.shields.io/badge/change_lang-pt--br-green.svg)][pt-br]
 [![GitHub release](https://img.shields.io/github/release/KaueAbade/CPPSnakeGame.svg?maxAge=3600)][GitHub release]
 
 [pt-br]:  https://github.com/KaueAbade/CPPSnakeGame/blob/main/README.md
