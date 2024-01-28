@@ -9,6 +9,10 @@
 Apenas com o modo de jogo tradicional e diferentes dificuldades dadas pela veloocidade da cobra.
 
 
+## Instalação
+Basta baixar e descompactar a versão mais recente do arquivo `Snake.zip` presente nos [lançamentos](https://github.com/KaueAbade/CPP-Snake-Game/releases).
+ Em seguida, o jogo pode ser executado pelo executável `Snake.exe` (preferencialmente como administrador).
+
 ## Controles
   W
 A S D   =       Controle das direções da cobra
@@ -24,7 +28,7 @@ A S D   =       Controle das direções da cobra
 
 
 ## Compatibilidade
-Dado o uso da biblioteca `windows.h` para gerenciamento do console, os lançamentos funcionam apenas nos sistema operacional Windows (mais especificamente Windows 10 e 11 onde a aplicação foi desenvolvida e testada).
+Dado o uso da biblioteca `windows.h` para gerenciamento do console, os lançamentos funcionam apenas nos sistemas operacionais Windows (mais especificamente Windows 10 e 11, onde a aplicação foi desenvolvida e testada).
 Estes gerenciamentos do console também, em sua maioria, funcionam apenas com previlégios de administrador.
 Não é necessário, é apenas recomendado para uma exibição melhor do console.
 
