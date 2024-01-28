@@ -5,6 +5,9 @@
 [en]:  https://github.com/KaueAbade/CPPSnakeGame/blob/main/README.en.md
 [GitHub release]:   https://github.com/KaueAbade/CPPSnakeGame/releases
 
+
+## Visão geral
+
 "Jogo da Cobrinha" (Snake Game) escrito em C++. 
 Apenas com o modo de jogo tradicional e diferentes dificuldades dadas pela veloocidade da cobra.
 
