@@ -1,14 +1,19 @@
 # CPP Snake Game
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)][pt-br]
-[![GitHub release](https://img.shields.io/github/release/KaueAbade/ModbusMaster.svg?maxAge=3600)][GitHub release]
+[![GitHub release](https://img.shields.io/github/release/KaueAbade/CPP-Snake-Game.svg?maxAge=3600)][GitHub release]
 
 [pt-br]:  https://github.com/KaueAbade/CPP-Snake-Game/blob/main/README.md
-[GitHub release]:   https://github.com/KaueAbade/ModbusMaster
+[GitHub release]:   https://github.com/KaueAbade/CPP-Snake-Game/releases
 
 Snake Game written in C++. 
 Only with the traditional game mode and different difficulties given by the speed of the snake.
 
 
+## Installation
+Simply download and unzip the latest version of the `Snake.zip` file from [releases](https://github.com/KaueAbade/CPP-Snake-Game/releases).
+ The game can then be run using the `Snake.exe` executable (preferably as administrator).
+
+ 
 ## Controls
   W
 A S D = Control the snake's directions
